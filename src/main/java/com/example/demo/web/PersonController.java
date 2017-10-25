@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PersonController {
 
     @RequestMapping("/info")
-    @ResponseBody
     public String getInfo(){
         return "information";
 //        return "Response from Person Controller";
